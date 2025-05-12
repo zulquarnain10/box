@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #040000;
-  background-color: #292264;
+  background-color: #81e45a;
 }
 
 .layout_padding {
@@ -57,7 +57,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../hero-bg.jpg);
+  background-image: url('hero-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -191,7 +191,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn {
-  background-image: url(../search-icon.png);
+  background-image: url('../search-icon.png');
   background-size: 22px;
   background-repeat: no-repeat;
   background-position-y: 7px;
@@ -228,7 +228,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(../menu.png);
+  background-image: url('menu.png');
   background-size: 55px;
 }
 
@@ -384,23 +384,23 @@ a:focus {
 }
 
 .slider_section .carousel-control-prev {
-  background-image: url(../prev.png);
+  background-image: url('prev.png');
   -webkit-transform: translateY(57%);
           transform: translateY(57%);
 }
 
 .slider_section .carousel-control-prev:hover {
-  background-image: url(..prev-grey.png);
+  background-image: url('prev-grey.png');
 }
 
 .slider_section .carousel-control-next {
-  background-image: url(../next.png);
+  background-image: url('next.png');
   -webkit-transform: translateY(-57%);
           transform: translateY(-57%);
 }
 
 .slider_section .carousel-control-next:hover {
-  background-image: url(../next-grey.png);
+  background-image: url('next-grey.png');
 }
 
 .slider_section .number_box {
@@ -442,7 +442,7 @@ a:focus {
 
 .about_section .about_container {
   padding: 45px;
-  background-image: url(../about-bg.jpg);
+  background-image: url('about-bg.jpg');
   background-size: cover;
 }
 
@@ -633,21 +633,21 @@ a:focus {
 .class_section .owl-carousel .owl-nav .owl-prev {
   width: 75px;
   height: 75px;
-  background-image: url(../prev.png);
+  background-image: url('prev.png');
 }
 
 .class_section .owl-carousel .owl-nav .owl-prev:hover {
-  background-image: url(../prev-grey.png);
+  background-image: url('prev-grey.png');
 }
 
 .class_section .owl-carousel .owl-nav .owl-next {
   width: 50px;
   height: 50px;
-  background-image: url(../next.png);
+  background-image: url('next.png');
 }
 
 .class_section .owl-carousel .owl-nav .owl-next:hover {
-  background-image: url(../next-grey.png);
+  background-image: url('next-grey.png');
 }
 
 .blog_section {
@@ -823,7 +823,7 @@ a:focus {
 }
 
 .client_section .owl-carousel .owl-nav .owl-prev {
-  background-image: url(../prev-arrow.png);
+  background-image: url('prev-arrow.png');
   background-color: #000000;
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
@@ -831,7 +831,7 @@ a:focus {
 }
 
 .client_section .owl-carousel .owl-nav .owl-next {
-  background-image: url(../next-arrow.png);
+  background-image: url('next-arrow.png');
   background-color: #ffffff;
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
