@@ -836,6 +836,25 @@ a:focus {
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
 }
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+}
+
+.whatsapp-button i {
+  margin-right: 8px;
+}
 
 .info_section .info_main-row {
   -webkit-box-align: end;
